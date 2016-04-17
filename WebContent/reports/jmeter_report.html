@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body {
+    background-color: linen;
+}
+
+td {
+    border-top-style: solid;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr style="font-weight:bold; background-color: orange">
+    <td width="300px">Case</td>
+    <td>Graph Results Screenshot</td>
+    <td>Average Query Time Value(ms)</td>
+    <td>More</td>
+  </tr>
+  <tr>
+    <td>Case 1: HTTP/1 thread</td>
+    <td><img src="graph1.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+    <td>116</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Case 2: HTTP/10 threads</td>
+    <td><img src="graph2.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+    <td>117</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Case 3: HTTPS/10 threads</td>
+    <td><img src="graph3.png" alt="Graph Results Screenshot Case 3" style="width:304px;height:228px;"></td>
+    <td>116</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <td>Case 4: HTTPS/10 threads/No prepared statements</td>
+    <td><img src="graph4.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+    <td>118</td>
+    <td>--</td>
+  </tr>
+
+</table> 
+
+</body>
+</html>
+
+
