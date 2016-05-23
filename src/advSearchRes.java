@@ -41,7 +41,7 @@ public class advSearchRes extends HttpServlet {
     	try {
             // Get DataSource
             Context initContext  = new InitialContext();
-            dataSource = (DataSource) initContext.lookup("java:comp/env/jdbc/moviedb");
+            dataSource = (DataSource) initContext.lookup("java:comp/env/jdbc/middleware");
         } catch (NamingException e) {
             e.printStackTrace();
         }

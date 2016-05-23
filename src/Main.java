@@ -35,7 +35,7 @@ public class Main extends HttpServlet {
 		try {
             // Get DataSource
             Context initContext  = new InitialContext();
-            dataSource = (DataSource) initContext.lookup("java:comp/env/jdbc/moviedb");
+            dataSource = (DataSource) initContext.lookup("java:comp/env/jdbc/middleware");
         } catch (NamingException e) {
             e.printStackTrace();
         }
@@ -94,7 +94,7 @@ public class Main extends HttpServlet {
 		   connection = (Connection) dataSource.getConnection();
 	    	Statement statement = connection.createStatement();
 		  
-	    	String genre_query="Select distinct name,id from moviedb.genres join genres_in_movies on genres_in_movies.genre_id = moviedb.genres.id order by name asc";
+	    	String genre_query="Select distinct name,id from middleware.genres join genres_in_movies on genres_in_movies.genre_id = middleware.genres.id order by name asc";
 	 	   ResultSet rs = statement.executeQuery(genre_query);
 	 	   out.println("<br><br><br><br><br><br>\r\n" + 
 	 	   		"<hr id=\"line\">" + 

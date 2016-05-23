@@ -36,7 +36,7 @@ public class Metadata extends HttpServlet {
 		try {
 			// Get DataSource
 			Context initContext = new InitialContext();
-			dataSource = (DataSource) initContext.lookup("java:comp/env/jdbc/moviedb1");
+			dataSource = (DataSource) initContext.lookup("java:comp/env/jdbc/middleware");
 		} catch (NamingException e) {
 			e.printStackTrace();
 		}
@@ -74,7 +74,7 @@ public class Metadata extends HttpServlet {
 				+ ">" + "&nbsp;</td>" + "</tr>");
 		out.println("<tr>" + "<td height=" + "10" + ">&nbsp;</td>" + "</tr>" + "<tr><td><div align=" + "center"
 				+ "><h1><strong><center><font color=" + "white"
-				+ ">FABFLIX - EXPLORE THE WORLD OF MOVIES</center></strong></h1></font>" + "&nbsp;<br/><br><br>");
+				+ ">FABTUBE - WORLD OF MOVIES</center></strong></h1></font>" + "&nbsp;<br/><br><br>");
 
 		try {
 

@@ -25,66 +25,7 @@ public class headerFooter {
 				"<script type="+"text/javascript"+" src="+"https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"+"></script>"
 				+"<script type=\"text/javascript\" src=\"bootstrap.js\"></script>"
 				+ "<link rel = \"stylesheet\" type=\"text/css\" href=\"bootstrap.css\">"
-				/*
-	<script>
-	$(function(){
-		$("#srch_box").typeahead({
-			hint: true,
-			highlight: true	
-		},
-		{
-			source: function(query, process){
-				$.ajax({
-					url: 'typeahead',
-					type: 'POST',
-					data: 'typeahead=' + query,
-					dataType: 'JSON',
-					async: false,
-					success: function(data){
-						process(data);
-					}
-				});
-			}
-		});
-	});
- 
-	
-</script> */
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""
-				+ ""+
-//				+"<script>$(function() {var availableTags = ["+"Titanic"+","+"American Beauty"+","+"Shakespeare in Love"+","+"Mystic River"+","+"Catch Me If You Can"+"8 Mile"+","
-//				                            
-//				   +"Licence to Kill"+","                                    
-//				   +"         
-//				  +"You Got Served"+","                                     
-//				  +"Ocean's Eleven "+"," +             
-//				"];$( "+"#src_box"+" ).autocomplete({source: availableTags});});</script>"
-
++
 
 				"<title> FABFLIX - HOMEPAGE </title>"+"<link rel= "+"stylesheet" +"link="+"text/css" +"href="+"tooltipster.css"+"><link rel="+"stylesheet"+" href="+"//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"+">"+
 				"<body id="+"stylemain"+" link ="+"white"+">"+"<div align="+"center"+">"+"<table width="+"998"+" border="+"0"+" cellspacing="+"0"+" cellpadding="+"0"+">"+"<tr>"+"<td height="+"10"+">"+"&nbsp;</td>"+"</tr>"
@@ -101,8 +42,7 @@ public class headerFooter {
 
 	public String banner()
 	{
-		String banner = 
-				"";
+		String banner="l";
 		return banner;
 	}
 

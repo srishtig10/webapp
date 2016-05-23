@@ -29,7 +29,7 @@ public class Connectionpooling extends HttpServlet {
 		 out.println("<TITLE>" +"Connection-Pooling" +
               "</TITLE></HEAD>");
 		 
-		 out.println("<p> We have implemented connection pooling in our project. In our login page i.e. 'TestLogin' where we accept the email id and password and establish connection with the database, there, using session it is saved and passed to all the rest of the pages.We used the following code for the same in TestLogin: Used connection.(datasource) to establish connection with our moviedb database and session.setAttribute to set users emailid and password. </p>");
+		 out.println("<p> We have implemented connection pooling in our project. In our login page i.e. 'TestLogin' where we accept the email id and password and establish connection with the database, there, using session it is saved and passed to all the rest of the pages.We used the following code for the same in TestLogin: Used connection.(datasource) to establish connection with our middleware database and session.setAttribute to set users emailid and password. </p>");
 		 out.println(base.banner());
 	}
 

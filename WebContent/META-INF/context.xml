@@ -32,12 +32,12 @@
     <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
     -->
     
-    <Resource name="jdbc/moviedb"
+    <Resource name="jdbc/middleware"
       auth="Container"
   factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
       type="javax.sql.DataSource"
       driverClassName="com.mysql.jdbc.Driver"
-      url="jdbc:mysql://localhost:3306/moviedb"
+      url="jdbc:mysql://localhost:3306/middleware"
       username="root"
       password="webapps"
       maxActive="100"
